@@ -9,7 +9,7 @@
 body {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(120deg, #add8e6af 30%, #191970c2 90%);
+  background: linear-gradient(120deg, #039788ab 30%, #fda7079c 90%);
   padding: clamp(20px, 5vw, 50px) 10px 10px;
 }
 
@@ -96,6 +96,20 @@ form button:hover {
 .result {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+}
+
+.container-img {
+  max-width: 800px;
+  background: #03978891;
+  padding: 15px;
+  margin: 20px auto 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container-img img {
+  width: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 800px) {
